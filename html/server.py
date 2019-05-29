@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask import render_template
-import queryhandler as handle
+#import queryhandler as handle
 
 app = Flask(__name__)
 
@@ -11,8 +11,8 @@ app = Flask(__name__)
 def handlerhandler():
     if request.method == 'POST':
         text = request.form.get('questionbar')
-        result = ("TEST")
         #result = handle.query_handler(text)
+        result = ("test")
         return result
     else:
         return 'ERROR'
