@@ -10,3 +10,5 @@ six==1.12.0
 urllib3==1.25.2
 Werkzeug==0.15.2
 stackapi==0.1.12
+bs4
+lxml
