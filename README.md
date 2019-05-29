@@ -1,13 +1,13 @@
 # Lifehack-Engine
 
-##Required packages
+## Required packages
 - Python 3.6
 - Elasticsearch 
 - Flask
 - p7zip 
 
 
-#How to run
+# How to run
 - start elasticsearch by /bin/elasticsearch
 - python3 -m venv venv
 - source venv/bin/activate
