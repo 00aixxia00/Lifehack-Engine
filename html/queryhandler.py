@@ -1,13 +1,13 @@
 import search
-import create_wordcloud
+# import create_wordcloud
 
 # Convert input_text to prepare for request returns html code
 def query_handler(input_text):
     htmltext = ""
     input_dict = convert_string_to_dict(input_text)
     results = perform_search_from_dict(input_dict)
-    if results['hits']['total'] > 0:
-        htmltext += print_histo_values(results)
+    #if results['hits']['total'] > 0:
+    #    htmltext += print_histo_values(results)
     # Add here extra data that needs to be showed above
 
     for article in results['hits']['hits']:
@@ -15,7 +15,7 @@ def query_handler(input_text):
 
         if input_dict['SHOWCLOUD']:
             htmltext += create_div_from_dict(article, 'query_result')
-            htmltext += create_wordcloud.main(article['_source'])
+           # htmltext += create_wordcloud.main(article['_source'])
         else:
             htmltext += create_div_from_dict(article, 'result_without')
         htmltext += '</div>'
