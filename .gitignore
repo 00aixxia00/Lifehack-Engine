@@ -2,3 +2,4 @@
 venv
 json_files
 json_bulks
+.DS_Store
