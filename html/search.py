@@ -18,7 +18,7 @@ def make_query(text, categories, exclude, date, datetype):
     except:
         pass
 
-    fields = ["title^2", "body", "accepted_answer", "answers", "comments^0.5"]
+    fields = ["title^4", "body^2", "accepted_answer", "answers", "comments^0.5"]
     query = {}
     query['bool'] = {"filter": {"bool": {"must": []}}}
 
