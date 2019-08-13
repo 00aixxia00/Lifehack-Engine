@@ -8,7 +8,7 @@
 
 
 # How to run
-- start elasticsearch by /bin/elasticsearch
+- start elasticsearch 
 - python3 -m venv venv
 - source venv/bin/activate
 - pip install -r requirements.txt
