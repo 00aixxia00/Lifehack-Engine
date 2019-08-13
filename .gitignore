@@ -4,6 +4,5 @@ json_files
 json_bulks
 .DS_Store
 
-html/__pycache__/queryhandler.cpython-37.pyc
-html/__pycache__/search.cpython-37.pyc
+html/__pycache__/
 
