@@ -163,7 +163,7 @@ def print_histo_values(res):
 	title = "Timeline"
 	data = res['aggregations']['hits_over_time']['buckets']
 
-	titel = "dit moet een mooie titel worden"
+	titel = "timeline"
 	result = '''<div id='resultdiv'><h1>Total results: '''\
     + str(res['hits']['total']) + ' Runtime:  '+ str(res['took']) +  '''ms</h1>
     <div id='chartContainer'></div></div>
