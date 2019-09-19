@@ -12,3 +12,4 @@ Werkzeug>=0.15.2
 stackapi>=0.1.12
 bs4
 lxml
+flask-cors

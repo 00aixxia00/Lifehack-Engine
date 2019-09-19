@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 from flask import render_template
 import queryhandler as handle
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # This part handles the post requests from the indexhtml,
 # It opens the information from the questionbar and sents it towards
