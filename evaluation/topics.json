@@ -1,0 +1,129 @@
+{
+  "topic_id": string (Some unique ID; probably just a number.),
+  "query": string (The query submitted to the search engine.),
+  "description": string (Description of the user’s intent.)
+  "narrative": string (Specification of what relevant documents are.)
+
+ }
+
+[ {
+   "topic_id": "01",
+   "query": "remove dog hairs",
+   "description": "How can dog hairs be removed easily and without special equipment?"
+   "narrative": "Relevant documents must include clear instructions on how to get rid of dog hairs on fabric like clothing, carpets, couches, car seats etc. They should include a list of the tools, chemicals if necessary and how to use them. These items should be part of a normal household."
+  },
+  {
+     "topic_id": "02"
+     "query":"homemade insecticide"
+     "description": "What homemade recipe can be used to kill aphids and other bugs harmful for plants?"
+     "narrative":"Relevant documents must include instructions and ingredients needed to produce something that can be applied on plants in order to protect them against insects."
+  },
+  {
+     "topic_id": "03"
+     "query":"clean cap"
+     "description": "How to clean a cap?"
+     "narrative":"Relevant documents must include instructions and chemicals for cleaning a cap. They should inform you, if using a washing machine would damage the cap or not."
+  },
+  {
+     "topic_id": "04"
+     "query":"food against headache"
+     "description": "Which food or drink can reduce headache?"
+     "narrative":"Relevant documents must include tips to reduce headache. These tips can be either something to eat or to drink and should also include medicine."
+  },
+  {
+     "topic_id": "05"
+     "query":"save water"
+     "description": "How can I save water in my everyday life without severely restricting myself?"
+     "narrative":"Relevant documents can include all kind of tips that help saving water. Documents include recommendations for water saving actions in the private home, at work or in public. They can also include fixes for common water wasting circumstances like dripping water taps."
+  },
+  {
+     "topic_id": "06"
+     "query":"remove stone of olive"
+     "description": "How to remove stone of olive efficiently"
+     "narrative":"Relevant documents must include techniques and tools for removing the stone of olives efficiently. They must also include simple standard tools, which everyone owns as well as an olive pitter."
+  },
+  {
+     "topic_id": "07"
+     "query":"boil an egg"
+     "description": "methods how to boil an egg."
+     "narrative":"Relevant documents must include methods for hard-boiled and soft-boiled eggs. They must also point out the tools which can be used, like cooking water, a microwave or an oven."
+  },
+  {
+     "topic_id": "08"
+     "query":"cut onions without tearing up"
+     "description": "ways to cut an onion without tears"
+     "narrative":"Relevant documents must include ways how to cut the onions and tools which prevent you from tearing up, like glasses or a sharp knife."
+  },
+  {
+     "topic_id": "09"
+     "query":"how to defrost quick"
+     "description": "reduce the defrost time for meat and vegetables"
+     "narrative":"Relevant documents must include techniques and necessary tools to defrost meat and vegetables quickly, like hot water, an aluminum plate or a defrost mode on the oven."
+  },
+  {
+     "topic_id": "10"
+     "query":"peeling garlic"
+     "description": "how to peel garlic efficiently and fast."
+     "narrative":"Relevant documents must include tips and techniques which make peeling garlic easier. They must also include tools which can be helpful for peeling and a concrete instruction."
+  },
+  {
+     "topic_id": "11"
+     "query":"get rid of acne"
+     "description": "how to remove pimples and heal acne"
+     "narrative":"Relevant documents must include methods, cremes, washing routines, medicine and chemicals which can be helpful to reduce pimples and heal acne."
+  },
+  {
+     "topic_id": "12"
+     "query":"put toothpaste back in tube"
+     "description": "avoiding to waste toothpaste"
+     "narrative":"Relevant documents must include methods and instructions how to get the extra toothpaste back in the tube, like using a syringe. They must also include ideas of storing toothpaste aside from its common packaging."
+  },
+  {
+     "topic_id": "13"
+     "query":"cook in electric kettle"
+     "description": "What (besides water) can be cooked in an electric kettle"
+     "narrative":"Relevant documents must include food that can be prepared using only an electric kettle and things to take into account when preparing the food."
+  },
+  {
+     "topic_id": "14"
+     "query":"clean laptop"
+     "description": "How can a laptop (keyboard and screen) be cleaned efficiently"
+     "narrative":"Relevant documents must include instructions and means to clean a complete laptop or specific parts (e.g. screen, keyboard, touchpad) of it."
+  },
+  {
+     "topic_id": "15"
+     "query":"clean shoes"
+     "description": "How can shoes of different colours and materials be cleaned?"
+     "narrative":"Relevant documents must include instructions, tips and material needed to clean shoes of different materials (e.g. leather or fabric) and colours."
+  },
+  {
+     "topic_id": "16"
+     "query":"no wrinkles without iron"
+     "description": "How can one make a shirt wrinkle-free without ironing it?"
+     "narrative":"Relevant documents must include instructions and tips how to remove creases from a shirt without ironing it. They can also include tips on how to prevent shirts from becoming crumpled in the first place."
+  },
+  {
+     "topic_id": "17"
+     "query":"store fruits"
+     "description": "How can fruits and vegetables be stored so they last long?"
+     "narrative":"Relevant documents must include tips on preprocessing or storage on fruits and vegetables sin order to expand their shelf life. Relevant documents can also include other tips that makes storing fruits more pleasant or more space efficient."
+  },
+  {
+     "topic_id": "18"
+     "query":"food preparation"
+     "description": "What are tricks to make food preparation easier, faster or more enjoyable?"
+     "narrative":"Relevant documents can include all kind of tricks helping to save time, effort or resources during the process of food preparation. Relevant documents can include all kinds of food and meals at every step of preparation."
+  },
+  {
+     "topic_id": "19"
+     "query":"organize shelf"
+     "description": "How can I organize my shelf or cupboard in a way to save space, make it look more tidy or prevent things from being dusty"
+     "narrative":"Relevant documents can include all kinds of tricks that help to organize shelves and cupboards more efficiently. Relevant documents can include tricks different objects like books, clothing, cdÕs, accessories, etc."
+  },
+  {
+     "topic_id": "20"
+     "query":"noisy neighbors"
+     "description": "What can help me to decrease the noise from the neighbors at my place?"
+     "narrative":"Relevant documents must include tips to ease the disturbance by the noise of the neighbors? Documents can include tips that deal stopping the noise from the source as well as ideal to seal the apartment or room. Source of noise can also be the neighborÕs dogs, children or a noisy street."
+  }
+]
